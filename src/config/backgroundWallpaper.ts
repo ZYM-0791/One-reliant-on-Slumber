@@ -75,17 +75,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "I want to sleep",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Dad's dad is grandpa.",
+				"Dad's mom is grandma",
+				"Mother's brother is uncle.",
+				"Dad's brother is an uncle.",
+				//"From Undreamt Night, I Thence Shine",
+				
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
