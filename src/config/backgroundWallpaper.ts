@@ -49,7 +49,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/d4b0c0666f32ed115054e5a5148a5c8b.jpg",
+			"assets/images/MobileWallpaper/c1b25b92df33e7061b56d3297d738f6b.jpg",
 			//"assets/images/MobileWallpaper/m2.avif",
 			//"assets/images/MobileWallpaper/m3.avif",
 			//"assets/images/MobileWallpaper/m4.avif",
