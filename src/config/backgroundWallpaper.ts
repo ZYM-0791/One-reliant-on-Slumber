@@ -4,7 +4,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 壁纸模式："banner" 横幅壁纸，"fullscreen" 全屏壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
 	mode: "banner",
 	// 是否启用背景视频播放，配置后将在导航栏显示视频播放按钮
-	playerEnable: true,
+	playerEnable: false,
 	/**
 	 * 背景图片配置
 	 * 图片路径支持三种格式：
@@ -39,22 +39,22 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			//"assets/images/DesktopWallpaper/8ef51f15956979cf261b4ab0bfbbf1d8.jpg",
+			//"assets/images/DesktopWallpaper/c66fc237c2d1938b0e5f18e673616880.jpg",
+			//"assets/images/DesktopWallpaper/39ceb26eeb94bdf0683e09d52e7d1963.jpg",
+			//"assets/images/DesktopWallpaper/0a99d2b20ce07f47c09e9fd3dfd97130.jpg",
+			"assets/images/DesktopWallpaper/8c7ba9e5b99b2a341bac0df457360584.jpg",
+			//"assets/images/DesktopWallpaper/5afd217b77be89563c680bfda69594b7.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/MobileWallpaper/d4b0c0666f32ed115054e5a5148a5c8b.jpg",
+			//"assets/images/MobileWallpaper/m2.avif",
+			//"assets/images/MobileWallpaper/m3.avif",
+			//"assets/images/MobileWallpaper/m4.avif",
+			//"assets/images/MobileWallpaper/m5.avif",
+			//"assets/images/MobileWallpaper/m6.avif",
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组）
@@ -75,16 +75,16 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "I want to sleep",
+			title: "Orion Blog",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"Dad's dad is grandpa.",
-				"Dad's mom is grandma",
-				"Mother's brother is uncle.",
-				"Dad's brother is an uncle.",
-				//"From Undreamt Night, I Thence Shine",
+				"欢迎大佬们参观交流",
+				"Light is fleeting, solitude eternal.",
+				"微光短暂，孤独长存",
+				"Wandering thoughts, sleepless nights",
+				"思绪漂泊，长夜无眠",
 				
 			],
 			// 主页横幅副标题字体大小
@@ -138,7 +138,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
 		carousel: {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
-			enable: false,
+			enable: true,
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马

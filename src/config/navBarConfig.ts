@@ -102,7 +102,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},*/
 			{
 				name: "QQ",
-				url: "",
+				url: "https://user.qzone.qq.com/2549930759",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
