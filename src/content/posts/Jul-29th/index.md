@@ -5,7 +5,7 @@ description: 本文许多操作使用GitHubDesktop，几乎0使用命令行，�
 image: "./783eab72a4a04e53f65160821677d58e.jpg"
 tags:  [搭建, 部署, Astro]
 category: 部署
-draft: true
+draft: false
 ---
 
 ## 一、前置准备
