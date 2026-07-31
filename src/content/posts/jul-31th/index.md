@@ -2,7 +2,7 @@
 title: 从一道简单题了解XSS
 published: 2025-07-31
 description: 一道XSS简单题，通过控制台操作就可以拿到 flag，并梳理 XSS 的原理与分类
-image:"./ima.jpg"
+image: "./ima.jpg"
 tags: [CTF, XSS, Web安全]
 category: CTF
 draft: false
