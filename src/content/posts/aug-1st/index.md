@@ -1,7 +1,7 @@
 ---
-title: XSS入门题的URL注入思路详解
+title: 简单XSS的URL注入思路以及同类XSS思路详解
 published: 2025-08-01
-description: 这是XSS入门题的url注入思路，今天终于搞明白了
+description: 这是简单XSS的url注入思路，今天终于搞明白了
 image: "kb.jpg"
 tags: [CTF, XSS, Web安全]
 category: CTF
