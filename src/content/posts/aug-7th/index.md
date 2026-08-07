@@ -8,7 +8,7 @@ category: CTF
 draft: false
 ---
 
->>题来自buuctf的n1book题单
+>题来自buuctf的n1book题单
 
 ## 一、开题，粗心的小李
 
@@ -26,7 +26,7 @@ draft: false
 
 ![访问.git](./2.png)
 
-> > 这跟 ctfshow 那题不一样啊？说明之前虽然使用dirsearch这个工具找到可访问的路径解决了问题，但并没有理解git泄露这个漏洞的本质，之前的题目只是让我们了解信息泄露到底是什么
+>  这跟 ctfshow 那题不一样啊？说明之前虽然使用dirsearch这个工具找到可访问的路径解决了问题，但并没有理解git泄露这个漏洞的本质，之前的题目只是让我们了解信息泄露到底是什么
 
 还是扫一下试试
 
@@ -52,7 +52,7 @@ ref: refs/heads/master
 
 ![打开](./7.png)
 
->>ps:后来才知道，`ref: refs/heads/master` 是 git 内部的引用文件，告诉 git 当前 HEAD 指向 master 分支。但这对于我来说就是一串乱码——所以知道 `.git` 泄露了很重要的信息，但看不懂。。。
+>ps:后来才知道，`ref: refs/heads/master` 是 git 内部的引用文件，告诉 git 当前 HEAD 指向 master 分支。但这对于我来说就是一串乱码——所以知道 `.git` 泄露了很重要的信息，但看不懂。。。
 
 ### 2.2 查资料：git-dumper
 
@@ -70,7 +70,7 @@ ref: refs/heads/master
 pip install git-dumper
 ```
 
->>因为是复现，这里没图
+>因为是复现，这里没图
 
 然后一条命令下载 + 恢复：
 
@@ -153,4 +153,4 @@ git-dumper 的工作流程：
 | **GitHack** | 老牌工具，Python 写的 | 备选，某些场景 git-dumper 不行时可以试 |
 | **Git_Extract** | 也是下载 + 恢复 | 备选 |
 
->>ps:工具不用全装，先 git-dumper，不行再换
+>ps:工具不用全装，先 git-dumper，不行再换
