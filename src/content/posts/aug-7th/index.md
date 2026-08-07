@@ -1,12 +1,14 @@
 ---
 title: 小小一题Git泄露
 published: 2026-08-07
-description: 从之前直接访问git到git-dumper解决,题来自buuctf的n1book题单
+description: 从之前直接访问git到git-dumper解决
 image: "./ava.jpg"
 tags: [CTF, Web安全, Git泄露]
 category: CTF
 draft: false
 ---
+
+>>题来自buuctf的n1book题单
 
 ## 一、开题，粗心的小李
 
