@@ -2,7 +2,7 @@
 title: 基础的联合注入
 published: 2026-08-09
 description: 比较经典的联合注入题目,没有挖什么坑，常用的payload就能解决
-image: "./ava"
+image: "./ava.jpg"
 tags: [CTF, Web安全, SQL注入, UNION注入]
 category: CTF
 draft: false
