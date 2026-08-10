@@ -162,7 +162,7 @@ updatexml(1, concat(0x7e, database(), 0x7e), 1)
 
 ## 三、关键词绕过技巧
 
-本题 `select` 被过滤，其实是SQL注入里很常见的情况——WAF过滤了关键词，你需要想办法绕过。这里结合 [CSA Wiki](https://wiki.cauc-csa.org.cn/ctf/web/vulnerabilities/sqlinj/sql/) 的总结，把常见的绕过方式梳理一下
+本题 `select` 被过滤，其实是SQL注入里很常见的情况——WAF过滤了关键词，需要想办法绕过。这部分许多引用[CSA Wiki](https://wiki.cauc-csa.org.cn/ctf/web/vulnerabilities/sqlinj/sql/) 的总结，把常见的绕过方式梳理一下
 
 ### 3.1 大小写绕过（本题用的）
 
