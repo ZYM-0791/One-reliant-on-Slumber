@@ -1,7 +1,7 @@
 ---
 title: php文件包含
 published: 2026-08-20
-description: [HCTF 2018] WarmUp
+description: HCTF 2018 WarmUp
 image: "./ava.jpg"
 tags: [CTF, Web安全, 文件包含]
 category: CTF
