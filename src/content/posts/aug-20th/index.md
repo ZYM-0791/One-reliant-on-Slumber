@@ -32,7 +32,7 @@ HTML注释里写了一个source.php
 
 ### 1.3 审计源码
 
-source.php 泄露了核心逻辑
+source.php 泄露了检查与执行的过程
 
 ```php
 $whitelist = array('index.php', 'source.php', 'hint.php');
@@ -85,12 +85,11 @@ if (in_array($_page, $whitelist)) {
 
 ```
 输入: hint.php?/../../../../ffffllllaaaagggg
-
 检查: 截取 ? 前面 → hint.php → 在白名单里 → 通过
 执行: include hint.php?/../../../../ffffllllaaaagggg → 路径穿越
 ```
 
->检查和执行的逻辑不一样的时候，就会出现漏洞，那要做的就是顺着检查来，因为检查是在明面上的，但操作是在服务器运行的，我检查时只检查了一部分，那没有被检查的部分就是危险的
+>检查和执行的逻辑不一样的时候，就会出现漏洞，那要做的就是顺着检查来，因为检查是在明面上的，但操作是在服务器运行的，相当于检查时只检查了一部分，那没有被检查的部分就是危险的
 
 ### 1.5 打开hint.php找线索
 
