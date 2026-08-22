@@ -8,6 +8,7 @@ draft: false
 ---
 
 >现在只有一小部分，后面这个分类会更新
+>应该可以看的比较明白，因为我可能自己也会来翻翻，翻不到的就找到后补
 
 ## 一、弱类型
 
@@ -65,10 +66,11 @@ require_once($file);  // 同require，但只包含一次
 
 // 数据流封装（需 allow_url_include=On）
 ?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCdpZCcpOz8+
+```
 
 > `php://filter` 不受 `allow_url_include` 限制，是最常用的伪协议，其他可能需要额外开启配置
 
-## 四、危险函数速查
+## 四、危险函数
 
 ### 4.1 代码执行
 
